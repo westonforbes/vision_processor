@@ -1,0 +1,12 @@
+# This file is hand-maintained and should not be modified by automated tools.
+my_little_snake_helpers @ git+https://github.com/westonforbes/my_little_snake_helpers.git@b73f2859118044a2077336d721be70220ec7f03e
+blinker==1.9.0
+click==8.2.1
+colorama==0.4.6
+Flask==3.1.1
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+numpy==2.2.6
+opencv-python==4.11.0.86
+Werkzeug==3.1.3
