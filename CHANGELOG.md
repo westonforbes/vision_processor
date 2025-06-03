@@ -1,4 +1,7 @@
 # Changelog
 
+# 0.0.2 - 2025-06-03
+- Built out camera activation and deactivation. Served on port 8080.
+
 # 0.0.1 - 2025-06-03
 - Initial commit
