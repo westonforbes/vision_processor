@@ -1,5 +1,8 @@
 # Changelog
 
+# 0.0.4 - 2025-06-03
+- Stripped down to a basic camera viewer.
+
 # 0.0.3 - 2025-06-03
 - Pivoting to Windows base as Google has given up on Coral.
 
