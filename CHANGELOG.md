@@ -1,5 +1,8 @@
 # Changelog
 
+# 0.0.7 - 2025-06-04
+- refactoring done. at a very stable point before doing some vibecode.
+
 # 0.0.6 - 2025-06-04
 - refactored video processing into its own class.
 
