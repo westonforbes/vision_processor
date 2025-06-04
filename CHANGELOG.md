@@ -1,5 +1,8 @@
 # Changelog
 
+# 0.0.6 - 2025-06-04
+- refactored video processing into its own class.
+
 # 0.0.5 - 2025-06-04
 - Buncha rework done, very solid base.
 
