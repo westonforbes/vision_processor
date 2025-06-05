@@ -1,6 +1,9 @@
 # Changelog
 
-# 0.0.9 -2025-06-05
+# 0.1.0 - 2025-06-05
+- creating 2d_code_matcher_branch. stripping down.
+
+# 0.0.9 - 2025-06-05
 - pausing, transistioning vision project into more of a label comparison direction.
 
 # 0.0.8 - 2025-06-05

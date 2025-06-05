@@ -5,3 +5,5 @@ mjpg-streamer/
 __pycache__/
 *.pyc
 *.pyo
+.claude/
+claude/
