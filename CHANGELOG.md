@@ -1,5 +1,8 @@
 # Changelog
 
+# 0.0.9 -2025-06-05
+- pausing, transistioning vision project into more of a label comparison direction.
+
 # 0.0.8 - 2025-06-05
 - got some good foundations out of vibecode sesh. Not entirely working but close. Gonna go through, fix and document. Revision as a point of return in case I botch something badly.
 

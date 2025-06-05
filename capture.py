@@ -2,7 +2,7 @@ import cv2
 import queue
 class Capture:
     
-    def __init__(self, thread_flags, frame_queue, processed_queue, console):
+    def __init__(self, thread_flags, frame_queue, processed_queue, console, video_capture_resolution):
             
         # Flags for inter-thread communication.
         self.thread_flags = thread_flags
@@ -16,12 +16,18 @@ class Capture:
         # Console for output messages.
         self.console = console
 
+        self.video_capture_resolution = video_capture_resolution
+
     def capture_frames(self):
 
         # Initialize video capture from the default camera using DirectShow.
         # cap = cv2.VideoCapture(0) # Default backend
         cap = cv2.VideoCapture(0, cv2.CAP_DSHOW) # Using DirectShow for potentially better compatibility/performance on Windows.
         
+        # Get the camera resolution and store it in the video_capture_resolution dictionary.
+        self.video_capture_resolution['width'] = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+        self.video_capture_resolution['height'] = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+
         while True:
             
             # Indicate the capture thread is running.

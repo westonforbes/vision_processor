@@ -49,6 +49,7 @@ class Processor:
             
             # Process the frame.
             frame = self.flip_horizontally(frame)
+            frame = self.gaussian_blur(frame)
             frame = self.convert_to_black_and_white(frame)
             frame = self.binary_difference_threshold(frame)
             frame = self.mog2_motion_detection_roi(frame)
