@@ -1,5 +1,8 @@
 # Changelog
 
+# 0.0.8 - 2025-06-05
+- got some good foundations out of vibecode sesh. Not entirely working but close. Gonna go through, fix and document. Revision as a point of return in case I botch something badly.
+
 # 0.0.7 - 2025-06-04
 - refactoring done. at a very stable point before doing some vibecode.
 
